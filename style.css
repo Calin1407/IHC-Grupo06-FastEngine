@@ -49,6 +49,7 @@ body{
 /* HERO */
 .hero{
     height: 85vh;
+    background-image: url("images/imageninicio.jpg"); /* Cambia por la imagen que tengas */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -57,16 +58,29 @@ body{
     position: relative;
 }
 
-.hero-text h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: white;
+.hero-overlay{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
 }
 
-.hero-text p{
+.hero-content{
+    position: relative;
+    color: white;
+    max-width: 550px;
+}
+
+.hero-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.hero-content p{
     margin: 20px 0;
     line-height: 1.5;
-    color: white;
+    font-size: 18px;
 }
 
 .btn-registro{
