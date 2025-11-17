@@ -117,3 +117,89 @@ body{
     font-size: 28px;
     margin-bottom: 10px;
 }
+
+/* ESTADÍSTICAS */
+.estadisticas{
+    margin-top: 60px;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    color: white;
+}
+
+.stat-num{
+    font-size: 70px;
+    color: #6FFF4F;
+    font-weight: bold;
+}
+
+.stat-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* RESEÑAS */
+.resenas-container{
+    padding: 40px 40px 80px;
+    color: white;
+}
+
+.titulo-resenas{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.resenas-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.resena-card{
+    width: 330px;
+    background: none;
+    text-align: center;
+}
+
+.img-container{
+    background-color: #eeeeff;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.persona-img{
+    width: 170px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.stars-img{
+    width: 140px;
+    margin-top: 10px;
+}
+
+.resena-text{
+    background-color: #3A3A58;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.resena-text p{
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.autor{
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
