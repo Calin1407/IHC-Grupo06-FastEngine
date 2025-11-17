@@ -1,0 +1,350 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #1D1B2D;
+    color: #F0EFF5;
+}
+
+
+/* NAVBAR */
+.topheader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 85px;
+    background-color: #0f0e17;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+}
+
+.Menu-Horizontal{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.Menu-Horizontal li a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2c2b3a;
+    padding: 12px 22px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.Menu-Horizontal li a:hover{
+    background-color: #5c5b8c;
+}
+
+
+/* HERO */
+.hero{
+    height: 85vh;
+    background-image: url("images/imageninicio.jpg"); /* Cambia por la imagen que tengas */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    position: relative;
+}
+
+.hero-overlay{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-content{
+    position: relative;
+    color: white;
+    max-width: 550px;
+}
+
+.hero-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.hero-content p{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.btn-registro{
+    background-color: #6949ff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-registro:hover{
+    background-color: #836bff;
+}
+
+
+/* MISIÓN – VISIÓN */
+.mision-vision{
+    background-color: #191825;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.mision, .vision{
+    width: 40%;
+    color: white;
+}
+
+.mision h2, .vision h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* ESTADÍSTICAS */
+.estadisticas{
+    margin-top: 60px;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    color: white;
+}
+
+.stat-num{
+    font-size: 70px;
+    color: #6FFF4F;
+    font-weight: bold;
+}
+
+.stat-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* RESEÑAS */
+.resenas-container{
+    padding: 40px 40px 80px;
+    color: white;
+}
+
+.titulo-resenas{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.resenas-grid{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.resena-card{
+    width: 330px;
+    background: none;
+    text-align: center;
+}
+
+.img-container{
+    background-color: #eeeeff;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.persona-img{
+    width: 170px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.stars-img{
+    width: 140px;
+    margin-top: 10px;
+}
+
+.resena-text{
+    background-color: #3A3A58;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.resena-text p{
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.autor{
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* --- Servicios --- */
+.section-servicios,
+.section-videos{
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 5vw;
+}
+
+.section-servicios h2,
+.section-videos h2{
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.cards{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card{
+  background: #302E4A;
+  border-radius: 12px;
+  width: 220px;
+  padding: 24px 18px;
+  text-align: center;
+}
+
+.videos{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video{
+  flex: 1 1 360px;
+  max-width: 48%;
+  background: #302E4A;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+/*Estilos para el formulario*/
+.seccion-formulario{
+    width: 100%;
+    color: #F0EFF5;
+    padding: 40px 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont-gral-formulario h2{
+    font-size: 40px;
+    margin-bottom: -8px;
+}
+
+.cont-gral-formulario p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.formulario{
+    flex: 0 0 68%;
+    max-width: 68%;
+}
+
+.formulario .campo{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.formulario .campo label{
+    font-size: 14px;
+}
+
+.formulario .campo input{
+    margin-bottom: 15px;
+}
+
+.imagenes{
+    padding-top: 50px;
+    text-align: right;
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+
+.imagenes img{
+    width: 400px;
+    height: 400px;
+}
+
+/* Estilos para el footer */
+.seccion-footer{
+    width: 100%;
+    background-color: #211F32;
+    color:#F0EFF5;
+    padding: 40px 20px;
+}
+
+.cont-gral-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    flex: 1;
+    margin-left: 20px;
+    max-width: 100px;
+    font-size: 8px;
+}
+
+.footer-polit{
+    margin-left: 20px;
+    max-width: 150px;
+    font-size: 12px;
+}
+
+.footer-redes {
+    margin-right: 56px;
+    max-width: 250px;
+    font-size: 16px;
+}
+
+.footer-redes p{
+    font-size: 12px;
+}
+
+.footer-redes img{
+    display: flex;
+    width: 16px;
+    height: 16px;
+}
