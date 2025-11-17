@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FastEngine</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,19 +18,64 @@
 
 
     <!--Funcionalidades-->
+    <section class="section-servicios">
+      <h2>Nuestros servicios</h2>
 
+      <div class="cards">
+        <article class="card">
+          <img src="images/imagen1.png" alt="Icono talleres">
+          <h3>Talleres</h3>
+          <p>Gestiona tu taller y mejora la experiencia de tus clientes</p>
+        </article>
+
+        <article class="card">
+          <img src="images/imagen2.png" alt="Icono vehículos">
+          <h3>Vehículos</h3>
+          <p>Gestiona el mantenimiento de tus vehículos</p>
+        </article>
+
+        <article class="card">
+          <img src="images/imagen3.png" alt="Icono logística">
+          <h3>Logística</h3>
+          <p>Controla el inventario de tu taller</p>
+        </article>
+
+        <article class="card">
+          <img src="images/imagen4.png" alt="Icono boletas">
+          <h3>Boletas</h3>
+          <p>Conserva el historial de boletas de tus vehículos</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Videos del producto -->
+    <section class="section-videos">
+      <h2>Videos del producto</h2>
+
+      <div class="videos">
+        <div class="video">
+          <img src="images/imagen5.png" alt="Video del producto 1">
+        </div>
+
+        <div class="video">
+          <img src="images/imagen6.png" alt="Video del producto 2">
+        </div>
+      </div>
+    </section>
+
+  </div>
 
     <!--Contactanos-->
     <section class="seccion-formulario" id="contactanos">
         <div class="cont-gral-formulario">
             <h2>Contáctanos!</h2>
             <p>Completa el formulario y se uno de los primeros en testear nuestro prototipo!</p>
-            
+
             <form class="formulario" id="contactForm">
                 <div class="campo">
                     <label for="nombre">Nombre Completos:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre">                    
-                    
+
                     <label for="correo">Correo electronico:</label>
                     <input type="text" id="correo" name="correo" placeholder="Ingrese correo">
 
@@ -40,8 +85,15 @@
                     <label for="telefono">Número telefonico:</label>
                     <input type="text" id="telefono" name="telefono" placeholder="Ingrese telefono">
                 </div>
-            </form>
 
+                <div class="boton-enviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="imagenes">
+            <img src="images/TallerMecanico1.webp" alt="TallerMecanico1">
         </div>
     </section>
 
