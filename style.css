@@ -139,6 +139,104 @@ body{
     max-width: 480px;
     padding: 16px 18px;
 }
-.text-content{
 
+/*Funcionalidades*/
+.funcionalidades{
+    color: #f0eff5;
+    text-align: center;
+}
+.titulo-funcionalidades h2{
+    padding: 32px 0;
+    font-size: 64px;
+}
+    /*Cartas de funcionalidades*/
+.card{
+    perspective: 1000px;
+    width: 320px;
+}
+.card-inner{
+    position: relative;
+    transition: .6s;
+    transform-style: preserve-3d;
+}
+.card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+.card-front, .card-back{
+    backface-visibility: hidden;
+    border-radius: 16px;
+    padding: 16px 18px;
+    background: #33304E;
+    color: #f0eff5;
+}
+.card-back{
+    position: absolute;
+    inset: 0;
+    transform: rotateY(180deg);
+}
+.card-back h3{
+    align-items: center;
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 64px;
+}
+/*VIDEOS*/
+.videos-section{
+    color: #f0eff5;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    gap: 64px;
+}
+.videos-content{
+    border-radius: 24px;
+    padding: 80px;
+    gap: 64px;
+}
+
+/*Contactanos*/
+
+
+/*Footer*/
+.seccion-footer{
+    width: 100%;
+    background-color: #211F32;
+    color:#F0EFF5;
+    padding: 40px 20px;
+}
+
+.cont-gral-footer{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-info{
+    flex: 1;
+    margin-left: 20px;
+    max-width: 100px;
+    font-size: 8px;
+}
+
+.footer-polit{
+    margin-left: 20px;
+    max-width: 150px;
+    font-size: 12px;
+}
+
+.footer-redes {
+    margin-right: 56px;
+    max-width: 250px;
+    font-size: 16px;
+}
+
+.footer-redes p{
+    font-size: 12px;
+}
+
+.footer-redes img{
+    display: flex;
+    width: 16px;
+    height: 16px;
 }
