@@ -6,241 +6,112 @@
     <title>FastEngine</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <!--Toolbar-->
-    <nav class="topheader">
-        <a href="" class="logo">
-            <img width="80" height="80" src="images/logo.jpeg" alt="logo fastengine"/>
+    <nav class="top-header">
+        <a class="logo">
+            <img width="50%" height="75%" src="images/logo.png" alt="logo.png">
         </a>
-        <!--Menu horizontal-->
-        <ul class="Menu-Horizontal">
-             <li><a href="">INICIO</a></li>
-             <li><a href="">INFORMACIÓN</a></li>
-             <li><a href="">FUNCIONALIDADES</a></li>
-            <li><a href="">CONTÁCTANOS</a></li>
+        <!--Menu-->
+        <ul class="menu-horizontal">
+            <li><a href="#inicio">INICIO</a></li>
+            <li><a href="#reseñas">RESEÑAS</a></li>
+            <li><a href="#">FUNCIONALIDADES</a></li>
+            <li><a href="#">CONTACTANOS</a></li>
         </ul>
-
     </nav>
-    <!-- HERO SECTION -->
+
+    <!--Hero Section-->
     <section class="hero" id="inicio">
-        <div class="hero-overlay"></div>
-
         <div class="hero-content">
-            <h1>La eficiencia que tu vehículo necesita</h1>
-            <p>Optimiza los costos del mantenimiento de tu vehículo, compara los precios con talleres y certificados en nuestra aplicación y prevén fallas técnicas.</p>
-            <button class="btn-registro">¡REGÍSTRATE!</button>
+            <h1>FastEngine</h1>
+            <h2>¡Los cuidados que tu vehículo necesita!</h2>
+            <p>Optimiza el control del mantenimiento de tu vehículo, mejora tu experiencia
+            de mantenimiento con nuestros talleres certificados y prevén fallas técnicas.</p>
         </div>
     </section>
 
-
-    <!-- MISIÓN Y VISIÓN -->
-    <section class="mision-vision" id="informacion">
-       <div class="mision">
-           <h2>Misión</h2>
-           <p>Queremos eliminar las "sorpresas" y los costos ocultos, transformando el mantenimiento en una ventaja competitiva y una fuente de tranquilidad.</p>
-       </div>
-       <div class="vision">
+    <!--Mision y vision-->
+    <section class="mision-vision">
+        <div class="mision">
+            <h2>Misión</h2>
+            <div class="mision-content">
+                <p>Queremos eliminar las "sorpresas" y los costos ocultos, transformando el mantenimiento
+                    en una ventaja competitiva y una fuente de tranquilidad.</p>
+            </div>
+        </div>
+        <div class="vision">
             <h2>Visión</h2>
-            <p>Liderar la gestión de mantenimiento vehicular en Perú y la región, impulsados por la IA y el IoT, garantizando seguridad, sinceridad y eficiencia en cada servicio.</p>
-       </div>
-    </section>
-
-
-     <!-- ESTADÍSTICAS -->
-    <section class="estadisticas">
-        <div class="stat-box">
-            <h2 class="stat-num">+25%</h2>
-            <p class="stat-text">AHORRO EN <br> TIEMPO Y DINERO</p>
-        </div>
-
-        <div class="stat-box">
-            <h2 class="stat-num">+50</h2>
-            <p class="stat-text">TALLERES <br> CERTIFICADOS EN LIMA</p>
+            <div class="vision-content">
+                <p>Liderar la gestión de mantenimiento vehicular en Perú y la región, impulsados por la IA y el IoT,
+                    garantizando seguridad, sinceridad y eficiencia en cada servicio.</p>
+            </div>
         </div>
     </section>
 
-
-    <!-- RESEÑAS -->
-    <section class="resenas-container" id="resenas">
-        <h2 class="titulo-resenas">Reseñas</h2>
-
-        <div class="resenas-grid">
-
-            <!-- TARJETA 1 -->
-            <div class="resena-card">
-                <div class="img-container">
-                    <img src="images/persona.jpg" alt="persona" class="persona-img">
-                    <img src="images/estrellas.jfif" class="stars-img">
+    <section class="reseña" id="reseñas">
+        <h1>Reseñas</h1>
+        <div class="estadísticas">
+            <div class="estadísticas">
+                <h1>+25%</h1>
+                <h3>AHORRO EN TIEMPO Y DINERO</h3>
+            </div>
+            <div class="estadísticas">
+                <h1>+50</h1>
+                <h3>TALLERES CERTIFICADOS EN LIMA</h3>
+            </div>
+        </div>
+        <div class="reseña-container">
+            <!--TARJETA 1-->
+            <div class="reseña-content">
+                <div class="img-content">
+                    <img src="images/persona.jpg" alt="persona.jpg" class="persona" height="200px" width="240px">
                 </div>
-
-                <div class="resena-text">
+                <div class="text-content">
                     <p>
                         “Como gestor de flotas, la transparencia de FastEngine ha sido un cambio radical.
-                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un 
+                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un
                         control total y hemos logrado un ahorro del 28% en mantenimiento preventivo.
                         La función de seguimiento en tiempo real es clave para no paralizar operaciones.”
                     </p>
-                    <span class="autor">— Carlota Rivas, Gerente de Logística S.A.</span>
+                    <span class="autor">-Carlota Rivas, Gerente de Logística S.A.</span>
                 </div>
             </div>
-
-            <!-- TARJETA 2 -->
-            <div class="resena-card">
-                <div class="img-container">
-                    <img src="images/persona.jpg" alt="persona" class="persona-img">
-                    <img src="images/estrellas.jfif" class="stars-img">
+            <!--TARJETA 2-->
+            <div class="reseña-content">
+                <div class="img-content">
+                    <img src="images/persona.jpg" alt="persona.jpg" class="persona" height="200px" width="240px">
                 </div>
-
-                <div class="resena-text">
+                <div class="text-content">
                     <p>
                         “Como gestor de flotas, la transparencia de FastEngine ha sido un cambio radical.
-                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un 
+                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un
                         control total y hemos logrado un ahorro del 28% en mantenimiento preventivo.
                         La función de seguimiento en tiempo real es clave para no paralizar operaciones.”
                     </p>
-                    <span class="autor">— Carlota Rivas, Gerente de Logística S.A.</span>
+                    <span class="autor">-Carlota Rivas, Gerente de Logística S.A.</span>
                 </div>
             </div>
-
-            <!-- TARJETA 3 -->
-            <div class="resena-card">
-                <div class="img-container">
-                    <img src="images/persona.jpg" alt="persona" class="persona-img">
-                    <img src="images/estrellas.jfif" class="stars-img">
+            <!--TARJETA 3-->
+            <div class="reseña-content">
+                <div class="img-content">
+                    <img src="images/persona.jpg" alt="persona.jpg" class="persona" height="200px" width="240px">
                 </div>
-
-                <div class="resena-text">
+                <div class="text-content">
                     <p>
                         “Como gestor de flotas, la transparencia de FastEngine ha sido un cambio radical.
-                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un 
+                        Antes, perdíamos tiempo y dinero con cotizaciones confusas. Ahora tenemos un
                         control total y hemos logrado un ahorro del 28% en mantenimiento preventivo.
                         La función de seguimiento en tiempo real es clave para no paralizar operaciones.”
                     </p>
-                    <span class="autor">— Carlota Rivas, Gerente de Logística S.A.</span>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!--Funcionalidades-->
-    <section class="section-servicios">
-      <h2>Nuestros servicios</h2>
-
-      <div class="cards">
-        <article class="card">
-          <img src="images/imagen1.png" alt="Icono talleres">
-          <h3>Talleres</h3>
-          <p>Gestiona tu taller y mejora la experiencia de tus clientes</p>
-        </article>
-
-        <article class="card">
-          <img src="images/imagen2.png" alt="Icono vehículos">
-          <h3>Vehículos</h3>
-          <p>Gestiona el mantenimiento de tus vehículos</p>
-        </article>
-
-        <article class="card">
-          <img src="images/imagen3.png" alt="Icono logística">
-          <h3>Logística</h3>
-          <p>Controla el inventario de tu taller</p>
-        </article>
-
-        <article class="card">
-          <img src="images/imagen4.png" alt="Icono boletas">
-          <h3>Boletas</h3>
-          <p>Conserva el historial de boletas de tus vehículos</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- Videos del producto -->
-    <section class="section-videos">
-      <h2>Videos del producto</h2>
-
-      <div class="videos">
-        <div class="video">
-          <img src="images/imagen5.png" alt="Video del producto 1">
-        </div>
-
-        <div class="video">
-          <img src="images/imagen6.png" alt="Video del producto 2">
-        </div>
-      </div>
-    </section>
-
-  </div>
-
-    <!--Contactanos-->
-    <section class="seccion-formulario" id="contactanos">
-        <div class="cont-gral-formulario">
-            <h2>Contáctanos!</h2>
-            <p>Completa el formulario y se uno de los primeros en testear nuestro prototipo!</p>
-
-            <form class="formulario" id="contactForm">
-                <div class="campo">
-                    <label for="nombre">Nombre Completos:</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre">                    
-
-                    <label for="correo">Correo electronico:</label>
-                    <input type="text" id="correo" name="correo" placeholder="Ingrese correo">
-
-                    <label for="ubicacion">Ubicacion:</label>
-                    <input type="text" id="ubicacion" name="ubicacion" placeholder="Ingrese ubicacion">
-
-                    <label for="telefono">Número telefonico:</label>
-                    <input type="text" id="telefono" name="telefono" placeholder="Ingrese telefono">
-                </div>
-
-                <div class="boton-enviar">
-                    <button type="submit">Enviar</button>
-                </div>
-            </form>
-        </div>
-
-        <div class="imagenes">
-            <img src="images/TallerMecanico1.webp" alt="TallerMecanico1">
-        </div>
-    </section>
-
-    <!--Footer-->
-    <footer class="seccion-footer">
-        <div class="cont-gral-footer">
-            <!--Info-->
-            <div class="footer-info">
-                <h3>Acerca de nosotros</h3>
-                <p><strong>FastEngine</strong> es una plataforma digital de gestión de mantenimiento vehicular 
-                    que opera como un servicio de transparencia y ahorro en Perú. Nos conectamos con el sector
-                    de transporte para brindar los precios más competitivos y costeables del mercado. Asimismo,
-                    brindamos medios de profesional y fácil comunicación para talleres con sus clientes.
-                </p>
-
-            </div>
-            <!--politicas-->
-            <div class="footer-polit">
-                <h3>Politicas y privacidad</h3>
-                <ul class="lista-politicas">
-                    
-                    <li>Terminos y condiciones</li>
-                    <li>Politica de privacidadM</li>
-                    <li>Politica de cookies</li>
-                    
-                </ul>
-            </div>
-            <!--Redes-->
-            <div class="footer-redes">
-                <h3>Síguenos en nuestras redes</h3>
-                <div class="redes-footer">
-                    <p><img src="images/instagram.png" alt="icono instagram">StartUp_FastEngine</p>
-                    <p><img src="images/facebook.png" alt="icono facebook">StartUp_FastEngine@gmail.com</p>
-                    <p><img src="images/twitter.png" alt="icono twitter">StartUp_FastEngine@gmail.com</p>
+                    <span class="autor">-Carlota Rivas, Gerente de Logística S.A.</span>
                 </div>
             </div>
         </div>
-    </footer>
-
+    </section>
 
 </body>
+
 </html>
