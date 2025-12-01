@@ -197,6 +197,89 @@ body{
 }
 
 /*Contactanos*/
+.contact-section{
+    padding: 60px 80px;
+    background: #0f0e17;
+    color: #f0eff5;
+    font-family: "Montserrat", sans-serif;
+
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 60px;
+    align-items: start;
+}
+.titulo-contacto{
+    grid-column: 1 / -1;
+}
+.titulo-contacto h2{
+    margin: 0 0 24px;
+    font-size: 64px;
+    text-align: center;
+}
+.contact-content{
+    grid-column: 1;
+    width: 360px;
+    background: #4a476d;
+    border-radius: 12px;
+    padding: 22px 22px 26px;
+    box-shadow: 0 18px 50px rgba(0,0,0,.35);
+}
+.contact-content h2{
+    margin: 0 0 6px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.contact-content p{
+    margin: 0 0 16px;
+    font-size: 13px;
+    line-height: 1.4;
+    opacity: .9;
+}
+.formulario{
+    margin: 0;
+}
+.campo{
+    display: grid;
+    gap: 10px;
+}
+.campo label{
+    display: block;
+    font-size: 12px;
+    color: rgba(240,239,245,.85);
+    margin-top: 6px;
+}
+.campo input{
+    display: block;
+    width: 100%;
+    height: 36px;
+    border: 0;
+    outline: none;
+    border-radius: 4px;
+    padding: 0 10px;
+    background: rgba(15,14,23,.55);
+    color: #f0eff5;
+    box-sizing: border-box;
+}
+.campo input::placeholder{
+    color: rgba(240,239,245,.6);
+}
+
+.campo input:focus{
+    box-shadow: 0 0 0 2px rgba(240,239,245,.18);
+}
+@media (max-width: 900px){
+    .contact-section{
+        grid-template-columns: 1fr;
+        padding: 40px 24px;
+    }
+    .contact-content{
+        width: min(360px, 100%);
+    }
+    .titulo-contacto h2{
+        font-size: 44px;
+    }
+}
 
 
 /*Footer*/
