@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="395816ee-8678-4714-8944-cb0006bb9a53" name="Changes" comment="" />
+    <list default="true" id="395816ee-8678-4714-8944-cb0006bb9a53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/imagen5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/imagen6.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +36,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "feature/sprint2-Jorge",
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "C:/Users/USER/Documents/IHC/images",
@@ -61,7 +69,9 @@
       <option name="presentableId" value="Default" />
       <updated>1764292626159</updated>
       <workItem from="1764292626854" duration="1978000" />
-      <workItem from="1764511960551" duration="22972000" />
+      <workItem from="1764511960551" duration="26127000" />
+      <workItem from="1764644020842" duration="3000" />
+      <workItem from="1764675766059" duration="4663000" />
     </task>
     <servers />
   </component>

@@ -198,7 +198,7 @@ body{
 
 /*Contactanos*/
 .contact-section{
-    padding: 60px 80px;
+    padding: 0 80px;
     background: #0f0e17;
     color: #f0eff5;
     font-family: "Montserrat", sans-serif;
@@ -217,6 +217,7 @@ body{
     text-align: center;
 }
 .contact-content{
+    transform: translateX(240px);
     grid-column: 1;
     width: 360px;
     background: #4a476d;
@@ -280,7 +281,28 @@ body{
         font-size: 44px;
     }
 }
-
+.contact-img{
+    align-content: center;
+    padding: 0 420px;
+}
+.contact-img img{
+    border-radius: 25%;
+}
+/*BOTÓN*/
+.seccion-btn{
+    padding: 24px 400px;
+}
+.seccion-btn:hover{
+    padding: 24px 400px;
+    opacity: 0.7;
+}
+.btn1{
+    border-radius: 24px;
+    background: #4a476d;
+    color: #F0EFF5;
+    width: 180px;          /* tamaño del botón */
+    height: 44px;
+}
 
 /*Footer*/
 .seccion-footer{
